@@ -1,0 +1,124 @@
+body {
+  background-image: url(wp6.jpeg);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  background-color: rgb(70, 70, 70);
+  text-align: center;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.ulnv {
+  margin: 0 auto !important;
+  display: flex;
+}
+
+li {
+  display: inline-block;
+}
+
+li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+li a:hover{
+  background-color: rgb(85, 85, 85);
+}
+
+.nv {
+  background-color: rgb(70, 70, 70);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.nv img {
+  height: 40px;
+  position: absolute;
+  left: 20px;
+  z-index: 10;
+}
+
+.pghl {
+  vertical-align: top !important;
+  text-align: left;
+}
+
+.pghr {
+  vertical-align: top !important;
+  text-align: right;
+}
+
+#navbar-example2 .nav-link {
+  color: white !important;
+  background-color: transparent !important;
+  transition: opacity 0.2s ease;
+}
+
+#navbar-example2 .nav-link:hover, 
+#navbar-example2 .nav-link:focus, 
+#navbar-example2 .nav-link.active {
+  color: white !important;
+  opacity: 0.7;
+}
+
+.scrollspy-example {
+  background-color: transparent !important;
+}
+
+table {
+  background-color: transparent !important;
+  border-collapse: collapse;
+}
+
+#navbar-example2 {
+  background-color: transparent !important;
+  position: fixed !important;
+  top: 93%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  background-color: rgba(196, 196, 196, 0.8) !important;
+  border-radius: 20px;
+  width: auto;
+}
+
+footer {
+  display: block;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+#title {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.carousel-item img {
+  border: 3px solid #2c2c2c !important;
+  border-radius: 10px;
+}

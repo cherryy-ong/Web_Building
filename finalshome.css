@@ -1,0 +1,89 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  background-color: rgb(70, 70, 70);
+  text-align: center;
+  margin: 0 auto !important;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  display: inline-block;
+}
+
+li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+li a:hover{
+  background-color: rgb(85, 85, 85);
+}
+
+nav {
+  background-color: rgb(70, 70, 70);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+  height: 60px;
+}
+
+nav img {
+  height: 40px;
+  position: absolute;
+  left: 20px;
+  z-index: 10;
+}
+
+.tab img {
+  width: 100%;
+  display: block;
+}
+
+.jumbotron {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  color: #212529;
+  margin-bottom: 18px;
+}
+
+.jumbotron p {
+  color: #6c757d;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer {
+  display: block;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+#title {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+}
